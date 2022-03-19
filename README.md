@@ -1,7 +1,7 @@
 # ham2mon Docker image
 
 [ham2mon](https://github.com/madengr/ham2mon) is a GNU Radio based SDR scanner wich can scan multiple radio channels in parallel.  
-As newer versions of GNURadio are only linked with python2 and there is no python3 version of han2mon this docker makes it working by containerizing it in Ubuntu 18.04
+As newer versions of GNURadio are only linked with python3 and there is no python3 version of han2mon this docker makes it working by containerizing it in Ubuntu 18.04
 
 ## Build
 
