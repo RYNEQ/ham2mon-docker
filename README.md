@@ -24,6 +24,5 @@ and then:
 
     docker run -it --privileged ham2mon
 
-WARNING: it is possible you need to do the `rmmod` part inside docker too, so connect SDR while checking `dmesg -w`  and make sure `dvb` driver is **NOT** loaded. 
-you can also check presence of rtl-sdr by running `rtl_test` command.
+you can check presence of rtl-sdr by running `rtl_test` command.
  
